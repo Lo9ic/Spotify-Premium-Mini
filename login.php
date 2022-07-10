@@ -109,7 +109,7 @@ if(strpos($login, '"access_token":"')!==false)
     $contents = file_get_contents($filename);
     $contents = str_replace($uniqueid, $guid2, $contents);
     file_put_contents($filename,$contents);
-    echo "$newAccessToken\nSuccess add access token to config.php\n";
+    echo "Success update access token to config.php\n";
 }
 else
 {
