@@ -120,7 +120,6 @@ if(strpos($getQR, '"url":"https')!==false)
 }
 else
 {
-    echo "Error Line 105\n";
     goto awal;
 }
 
