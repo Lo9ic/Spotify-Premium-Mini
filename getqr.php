@@ -1,4 +1,5 @@
 <?php
+//Lo9ic who ?
 function color($color, $text)
 {
     $arrayColor = array(
