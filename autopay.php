@@ -94,7 +94,7 @@ if(strpos($getPaymentID, 'payment_id')!==false)
 {
     $paymentID = getstr($getPaymentID, '"payment_id": "','"');
     $value = getstr($getPaymentID, 'value\":\"','\"');
-    echo "$paymentID\n";
+    echo "$paymentID : ";
 
 }
 else
